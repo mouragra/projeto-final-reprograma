@@ -1,0 +1,50 @@
+.sobreContainer {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+  
+  .bioTitle {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    color: white;
+    background-color: rgb(77, 149, 101);
+    box-shadow: 10px 15px 10px grey;
+    text-align: center;
+
+  }
+
+  .bioContainer {
+    width: 100%;
+  }
+
+  .bioImage {
+    width: 40%;
+  }
+  
+  .bioText {
+    padding: 2rem;
+    color: #474a51
+  }
+  
+  @media(max-width: 765px) {
+    .sobreContainer {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .bioImage {
+      width: 100%;
+    }
+  }
+
+  .codeExample {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    
+    overflow-x: scroll;
+    overflow-y: hidden;
+  }

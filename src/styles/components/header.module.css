@@ -1,0 +1,25 @@
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .headerTitle {
+    color: grey;
+    font-size: 2rem;
+    padding: 2rem;
+    margin: 0.5;
+  }
+  
+  .headerImage {
+    width: 100%;
+    box-shadow: 10px 15px 15px grey;
+  }
+  
+  @media(max-width: 765px) {
+    .headerImage {
+      width: 100%;
+    }
+  }
+  

@@ -1,0 +1,34 @@
+.homeContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    text-align: center;
+
+   }
+   
+   .cardContainer {
+     width: auto;
+   }
+   
+   .cardTitle {
+     padding: 1rem;
+     font-size: 2rem;
+     color: #f1f1f1;
+     background-color: rgb(77, 149, 101);
+     box-shadow: 10px 15px 10px grey;
+
+   }
+   
+   .cardText {
+     font-size: 1.2rem;
+     color: #f1f1f1;
+   }
+   
+   @media(max-width: 765px) {
+     .homeContainer {
+       display: flex;
+       flex-direction: column;
+      }
+    }
