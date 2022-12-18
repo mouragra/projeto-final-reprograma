@@ -1,16 +1,18 @@
 .menuContainer {
     background:#f1f1f1;
-    display: Flex;
+    display: flex;
     gap: 5rem;
     align-items: center;
     justify-content: center;
     padding: 1rem;
     background-color: rgb(93, 178, 214);
-    box-shadow: 10px 10px 10px grey;
 }
 
 .menuItem {
   list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .menuLink {

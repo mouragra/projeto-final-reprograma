@@ -1,0 +1,15 @@
+.logoContainer {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    display:flex
+}
+
+.logoImage {
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px grey;
+    
+}

@@ -1,16 +1,28 @@
 .footerContainer {
-    padding: 1rem;
-    background: #f1f1f1;
-    background-color: rgb(208, 45, 173);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-  }
-  
-  .footerText {
-    color: #f1f1f1;
-    font-size: 1rem;
+  padding: 1rem;
+  background: #f1f1f1;
+  background-color: rgb(66, 64, 64);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
 
+.footerText {
+  color: #f1f1f1;
+  font-size: 1rem;
+
+}
+
+.redesSociais {
+  display: flex;
+  gap: 1rem;
+}
+
+@media(max-width: 765px) {
+  .redesSociais {
+    display: grid;
+    gap: 0rem;
   }
-  
+
+}

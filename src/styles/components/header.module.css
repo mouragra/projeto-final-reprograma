@@ -14,7 +14,8 @@
   
   .headerImage {
     width: 100%;
-    box-shadow: 10px 15px 15px grey;
+    box-shadow: 10px 10px 10px grey;
+
   }
   
   @media(max-width: 765px) {

@@ -133,7 +133,6 @@ input:checked + .slider:before {
   background-color: rgb(66, 64, 64);
   box-shadow: 10px 5px 5px grey;
 
-
 }
 
 .box-3 {
@@ -147,10 +146,13 @@ input:checked + .slider:before {
 .box-4 {
   padding: 1rem;
   margin: 0 0 1em 0;
-  background-color: rgb(57, 52, 52);
+  background-color: rgb(66, 64, 64);
   box-shadow: 10px 5px 5px grey;
 
 }
+
+
+
 
 @media (max-width: 480px) {
   ul {
