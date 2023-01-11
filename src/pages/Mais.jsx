@@ -20,7 +20,7 @@ export function Mais() {
 
     return (
         <>
-            <Header title="SAIBA MAIS SOBRE AS FERRAMENTAS DISPONÍVEIS" image={imgSabia} alt="imagem de banner no site onde mostra os símbolos de pessoas com limitações, motoras, visão, audio e libras" />
+            <Header title="SAIBA MAIS SOBRE AS FERRAMENTAS DISPONÍVEIS" image={imgSabia} alt="imagem de banner no site onde mostra várias palmas de mãos coloridas, e cada mão indicando uma letra para formar a palavra inclusion" />
            
             <div className={styles.cardsContainer}>
 
